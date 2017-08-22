@@ -1,0 +1,115 @@
+---MEN.txt---
+
+total word pairs tested: 1977/3000
+
+--word2vec--
+rms: 16.161199
+correlation: 0.476938
+spearman: 0.479174
+
+--hybrid--
+rms: 12.669578
+correlation: 0.629267
+spearman: 0.651656
+
+--old_word2vec--
+rms: 14.158799
+correlation: 0.390702
+spearman: 0.386097
+
+--old_hybrid--
+rms: 13.230832
+correlation: 0.642045
+spearman: 0.659977
+
+--sense--
+rms: 10.658964
+correlation: 0.642307
+spearman: 0.658131
+
+---rg65.txt---
+
+total word pairs tested: 30/65
+
+--word2vec--
+rms: 1.437641
+correlation: 0.367882
+spearman: 0.307076
+
+--hybrid--
+rms: 1.729628
+correlation: 0.749721
+spearman: 0.759012
+
+--old_word2vec--
+rms: 1.230599
+correlation: 0.454497
+spearman: 0.430797
+
+--old_hybrid--
+rms: 1.806370
+correlation: 0.809992
+spearman: 0.869159
+
+--sense--
+rms: 0.905544
+correlation: 0.814200
+spearman: 0.871995
+
+---wordsim_relatedness.txt---
+
+total word pairs tested: 199/252
+
+--word2vec--
+rms: 3.739611
+correlation: 0.190991
+spearman: 0.193288
+
+--hybrid--
+rms: 2.266938
+correlation: 0.386144
+spearman: 0.401139
+
+--old_word2vec--
+rms: 3.230866
+correlation: 0.225426
+spearman: 0.225652
+
+--old_hybrid--
+rms: 2.334595
+correlation: 0.464718
+spearman: 0.465463
+
+--sense--
+rms: 2.368374
+correlation: 0.458359
+spearman: 0.464050
+
+---wordsim_similarity.txt---
+
+total word pairs tested: 154/203
+
+--word2vec--
+rms: 3.316021
+correlation: 0.438749
+spearman: 0.407552
+
+--hybrid--
+rms: 2.570051
+correlation: 0.679330
+spearman: 0.650806
+
+--old_word2vec--
+rms: 2.824940
+correlation: 0.494580
+spearman: 0.483550
+
+--old_hybrid--
+rms: 2.646148
+correlation: 0.724710
+spearman: 0.695289
+
+--sense--
+rms: 1.845110
+correlation: 0.714382
+spearman: 0.695564
